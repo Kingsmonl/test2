@@ -1,0 +1,45 @@
+/* page body background colour and margins */
+body{
+    background-color: white;
+    margin-left:10%;
+    margin-right:10%;
+
+
+}
+
+/* headings styles grouped h1 h2 h3*/
+h1,h2,h3{
+    color: black;
+    font-family: verdana;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/*CSS Selevtors (ID)*/
+/*Paragraph style using ID*/
+#mainText
+{
+    color: black;
+    font-family: arial;
+    text-align: justify;
+}
+
+/*Image Style using class*/
+.fullWidthContent
+{
+    width:100%;
+}
+
+/* style the anchor element*/
+a{
+    font-size: 2em;
+    color:blue;
+    text-align: center;
+    text-decoration: none;
+}
+
+.anchorLarge{
+    color: red(255, 0, 47);
+    font-size: 2em;
+    padding: 5%;
+}
